@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&family=Roboto&display=swap');
+
+
+/* para que en el nav no aparezcan los links a color sub,etc. */
+*{
+    margin: 0;
+    padding:0 ;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style:none;
+}
+/* parte superior (logo+nav) (fondo, posicion, ancho) */
+.header {
+    
+    background-repeat: no-repeat;
+    min-height: 10vh;
+    display: flex;
+    align-items:flex-end;
+    background-color: #412720;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+/* barra de navegacion (menu,contact,reserv) */
+
+.menu {
+    position: absolute;
+    right: 0px;
+    top:0;
+    left: 0;
+    display: flex;
+    align-items:flex-end;
+    justify-content: space-between;
+
+
+    
+}
+
+.menu .navbar ul li {
+    position:relative;
+    float:left;
+    background-color: #412720;
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
+    justify-content: flex-start;
+  
+
+}
+
+.menu .navbar ul li a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    padding: 25px;
+    color:#EFEBE4;
+    background-color: #412720;
+    font-weight: 600; 
+}
+
+/* al posicionarse encima del nav cambia de color */
+.menu .navbar ul li a:hover{
+    color:#412720;
+    background-color: #EFEBE4;
+
+}
+/* caracteristicas del logo */
+
+.contenedorlogo{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position:relative;
+    padding:8px 10px ;
+    margin:5px;
+    font-family:'League Gothic', sans-serif; 
+    font-size: 23px;
+    color: #EFEBE4;
+    align-items:center;
+}
+
+.menu h2{
+    padding:3px;
+ }
+
+
+/* foto portada y frase*/
+.principal{
+    width: 100%; 
+    height: 70vh;
+
+   
+}
+.principal{
+    font-family:'League Gothic', sans-serif; 
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    background-image: url(../imagenes/portada.jpg);
+    background-position:center bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display:flex;
+	align-items: center;
+    color: #EFEBE4;
+}
+
+
+/* veni a conocernos*/
+.secundario>.veniaconocernos{
+    text-align: center;
+    width: 100%;
+    
+}
+
+
+/* veni a conocernos*/
+.veniaconocernos > h2 {
+    font-size: 55px;
+    line-height: 70px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    background-color: #EFEBE4;
+    color: #412720;
+    font-family:'League Gothic', sans-serif;
+    border: 10px solid #412720;
+    
+}
+
+/* galeria de fotos del home*/
+.galeriahome {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    float: left;
+    width: 100%;
+  }
+  .galeriahome img{
+    width: 270px;
+    height: 270px;
+    margin:50px;
+    border: 8px solid #412720;
+  }
+
+/* Medios de pago */
+
+.titulomediosdepago > h2{
+    color: #412720;
+    font-family:'League Gothic', sans-serif;
+    font-size: 55px;
+    line-height: 70px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    text-align: left;
+    margin: 50px;
+}
+
+.titulomediosdepago > .medio{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.medio{
+    background-color: #EFEBE4;
+    border: 8px solid #412720;
+    margin: 50px;
+}
+.titulomediosdepago > .medio> .medio-1>h3{
+    width: 100%;
+    height:50px;
+    color: #412720;
+    font-size: 40px;
+    text-align: center;
+    margin: 25px;
+    display: flex;
+    padding: auto;
+    position: relative;
+    
+}
+
+ /* pie del sitio */
+
+ footer {
+    width: 100%;
+    padding: 30px;
+    background-color: #412720;
+    }
+
+.link a {
+    display: inline-flex;
+    flex-direction: row;
+    text-decoration: none;
+    justify-content: space-between;
+    position: relative;
+    padding:15px 263px;
+    color:#EFEBE4;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    transition: all 300ms ease;
+    align-items: center;
+   
+     
+}
+
+.link a:hover{
+    background-color: #EFEBE4;
+    color: #412720;
+}
+
+.politicas{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.politicas p{
+    font-family:'Roboto', sans-serif;
+    color: #EFEBE4;
+    font-size: 10px;
+    position: relative;
+    padding: 8px 253px;
+    text-align: center;
+}
+.linea hr{
+    color:#EFEBE4;
+}
+
+
+
+
+
+    
+ 
+    
+  
+  
+
+  
+  
+     
